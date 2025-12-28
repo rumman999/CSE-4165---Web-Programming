@@ -138,15 +138,21 @@
 
 .mid .bb span{
     font-size: 54px;
-    border-bottom: 5px dotted black;
+    border-bottom: 4px dashed black;
 }
 
 .cc{
     margin-top: 55px;
+    
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+select{
+    text-decoration: none;
+    border: none;
 }
 
 .card{
@@ -159,6 +165,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .card .a{
@@ -167,6 +174,21 @@
     padding-right: 50px;
     font-weight: bold;
 }
+
+.card .abc{
+    color: #4358b8;
+    font-size: 16px;
+    padding-right: 140px;
+    font-weight: bold;
+}
+
+.card .aaq{
+    color: #4358b8;
+    font-size: 16px;
+    padding-right: 100px;
+    font-weight: bold;
+}
+
 
 .card .b{
     display: flex;
