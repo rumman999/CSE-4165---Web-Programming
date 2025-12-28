@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace  ;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.topBar{
+    width: 80%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+}
+
+.one{
+    font-size: 32px;
+    -color: rgb(18, 206, 159);
+}
+
+.two{
+    display: flex;
+    gap: 25px;
+}
+
+.pz{
+    padding-top: 12px;
+}
+
+.pz select{
+    border: none;
+    background-color: transparent;
+    font: inherit;   
+}
+
+.circles{
+    position: absolute;
+    right: 47%;
+    top: 400%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.c{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(18, 206, 159);
+    border-radius: 50%;
+    padding-left: 35px;
+    padding-top: 35px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+
+}
+
+.two .btn{
+    background-color: rgb(18, 206, 159);
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    background-color: rgb(243, 240, 240);
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.foot{
+    background-color: rgb(18, 206, 159);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.a select, .a input, .b button{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    font-size: 22px;
+    color: grey;
+    padding: 0px 5px;
+}
+
+
+.b button{
+    width: 180px;
+    height: 50px;
+    background-color: rgb(3, 3, 36);
+    color: white;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 45px;
+    gap: 20px;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    background-image: url(/243/1/carousel-2.jpg);
+}
+
+.p{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.p span{
+    color: rgb(18, 206, 159);
+}
+
+.q{
+    color: rgb(43, 42, 42);
+}
+
+.r button{
+    font-size: 20px;
+    border: none;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(18, 206, 159);
+    color: white;
+}
